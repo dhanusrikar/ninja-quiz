@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  font-size: 3em;
+  color: rgb(34, 144, 207);
+  font-weight: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 1.7em;
+}
+
+.quizForm {
+  position: absolute;
+  width: 100%;
+  background-color: rgb(34, 144, 207);
+  color: white;
+  padding: 50px;
+}
+
+.questionPart {
+  position: relative;
+  left: 50px;
+  padding: 20px;
+}
+
+.optionPart {
+  position: relative;
+  padding: 10px;
+  left: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.text-ceter {
+  position: relative;
+  left: 50px;
+  height: 30px;
+  width: 60px;
+}
+
+.result {
+  /* display: none; */
+  display: flex;
+  /* margin: 20px; */
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  background: rgba(221, 216, 216, 0.8);
+}
+
+.d-none {
+  display: none;
+}
+
+.percent {
+  font-size: 3em;
+  color: rgb(34, 144, 207);
+}
